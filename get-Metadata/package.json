@@ -1,0 +1,25 @@
+{
+  "name": "get-metadata",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node -r esm fetchMetadata.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metaplex/js": "^4.12.0",
+    "@raydium-io/raydium-sdk": "^1.3.0",
+    "@solana/web3.js": "^1.95.2",
+    "esm": "^3.2.25",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "typescript": "^5.5.4"
+  },
+  "description": ""
+}
