@@ -3,7 +3,7 @@ import fetch from 'cross-fetch';
 import { Wallet } from '@project-serum/anchor';
 import bs58 from 'bs58';
 
-const connection = new Connection('https://warmhearted-frequent-grass.solana-mainnet.quiknode.pro/65c2898b9eaf8bbd73d1954c7ce8dc2bdf0d62fe');
+const connection = new Connection('https://warmhearted-wider-dust.solana-mainnet.quiknode.pro/bbc478ea66833e371dd5590476befc2569394c88');
 
 const wallet = new Wallet(Keypair.fromSecretKey(bs58.decode(process.env.PRIVATE_KEY || '')));
 const inputMint = process.env.INPUT_MINT || 'So11111111111111111111111111111111111111112';

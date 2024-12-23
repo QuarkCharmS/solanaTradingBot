@@ -236,8 +236,9 @@ async def process_token(token, time_to_wait_in_seconds=60, counter=0, max_retrie
             return
         print(f'Current price --\n{datetime.now()} - {price}')
         time_passed = time.time() - initial_time
+        print(f'Comparison to initial price: {100*(price/initial_price)}%')
 
-        if (price / initial_price >= 1.5 or time_passed >= time_to_wait_in_seconds):
+        if (price / initial_price >= 1.2 or time_passed >= time_to_wait_in_seconds):
             #// In case the maximum time passed, then the function is triggered to stop.
             print(f'Selling at price: {price}')
             print(f'Selling is at {100.0 * price / initial_price}% of initial price.')

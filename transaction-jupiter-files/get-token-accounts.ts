@@ -8,7 +8,7 @@ import bs58 from 'bs58';
 
 
 
-const rpcEndpoint = 'https://warmhearted-frequent-grass.solana-mainnet.quiknode.pro/65c2898b9eaf8bbd73d1954c7ce8dc2bdf0d62fe';
+const rpcEndpoint = 'https://warmhearted-wider-dust.solana-mainnet.quiknode.pro/bbc478ea66833e371dd5590476befc2569394c88';
 const solanaConnection = new Connection(rpcEndpoint);
 //FtGB8BtiRQkVn67JiN5rk2WbjHDULRdt23h63oxtuakU
 
